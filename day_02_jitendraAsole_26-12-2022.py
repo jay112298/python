@@ -115,3 +115,29 @@ print(s[:-5])
 print(s[0:8])
 print(s[9:13])
 print(s[14:19])
+
+#Grab everything from the string in the steps
+#Syntax for the same is str_name[start : end+1 : steps(ex 1, 2, 3)]
+
+print(s[0::1])
+print(s[0::2])
+print(s[0::3])
+print(s[0::4])
+print(s[0::5])
+
+#Print string in reverse order
+
+print(s[::-1])
+print(s[::-2])
+print(s[::-3])
+
+#String concatenation
+
+s = s + " " + "is my name"
+
+print("This is concatenated string: ",s)
+
+#String methods
+
+print(s.upper())
+print(s.split())
