@@ -28,8 +28,22 @@ print(a)
 
 my_income = 800000
 
-tax_rate = 0.1
+tax_rate = 0.15
 
 total_tax = my_income * tax_rate
 
 print(total_tax)
+
+#Calculations using variable to calculate price before GST
+
+price = 100000
+
+tax_rate = 0.28 
+
+price_before = price / (1 + tax_rate)
+
+print(price_before)
+
+#String data type
+
+names = ['RAM', 'LAKSHMAN', 'NARAYAN']
