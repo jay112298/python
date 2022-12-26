@@ -103,3 +103,15 @@ print(s[15])
 print(s[16])
 print(s[17])
 print(s[18])
+
+#Performing the slicing using the : which grabs 
+# Syntax for string splicing str_name[star : end+1]
+
+print(s[1:])
+print(s[3:])
+print(s[:-1])
+print(s[:-3])
+print(s[:-5])
+print(s[0:8])
+print(s[9:13])
+print(s[14:19])
