@@ -23,3 +23,13 @@ print(a)
 
 a = a + a
 print(a)
+
+#Variable calculation using income example
+
+my_income = 800000
+
+tax_rate = 0.1
+
+total_tax = my_income * tax_rate
+
+print(total_tax)
