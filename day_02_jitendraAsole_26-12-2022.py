@@ -141,3 +141,4 @@ print("This is concatenated string: ",s)
 
 print(s.upper())
 print(s.split())
+print("I am splitting using w.r.t. a",s.lower().split('a'))
