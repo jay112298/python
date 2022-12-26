@@ -13,3 +13,13 @@ a = 5
 b = 10
 c = 20.60
 d = 100.1011
+
+#Variable reassignment
+
+a = 10
+print(a)
+
+#Redefining variable using variable itself
+
+a = a + a
+print(a)
