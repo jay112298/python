@@ -75,3 +75,8 @@ print('I am checking double-quote in single quote "This is a QUOTE"')
 #How to print()
 
 print("Printing my name using print() function")
+
+#How to check len() of any string and the length of the List
+
+print(len(str_var))
+print(len(names))
