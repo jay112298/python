@@ -47,3 +47,31 @@ print(price_before)
 #String data type
 
 names = ['RAM', 'LAKSHMAN', 'NARAYAN']
+
+print(names)
+
+#type() usage
+
+print(type(price))
+print(type(tax_rate))
+
+str_var = 'Jitendra Asole'
+
+print(type(str_var))
+print(type(names))
+
+a = (0, 1, 2, 3)
+
+print(type(a))
+
+#String
+
+print("Jitendra")
+print("This is also a string")
+
+print("I'm using double quotes and that won't cause any big problem")
+print('I am checking double-quote in single quote "This is a QUOTE"')
+
+#How to print()
+
+print("Printing my name using print() function")
