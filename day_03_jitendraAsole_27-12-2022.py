@@ -94,3 +94,35 @@ my_dict = {'name': 'Jitendra', 'middle': 'Raju', 'last': 'Asole', 'place': 'Nagp
 
 print('My age is ',my_dict['age'])
 print('My net worth is ',my_dict['worth'])
+
+my_dict = {'k1': [1, 2, 3], 'k2': ['i1', 'i2', 'i3'], 'k3': [1, 'Hey', 'You']}
+
+print(my_dict['k1'][0])
+print(my_dict['k1'][2])
+print(my_dict['k2'][0])
+print(my_dict['k2'][2])
+print(my_dict['k3'][0])
+print(my_dict['k3'][2])
+
+print(my_dict.keys())
+print(my_dict.values())
+# print(my_dict.)
+# print()
+
+#Tuples
+
+tuple = (1, 2, 3, 4, 5, 6)
+
+print(len(tuple))
+
+tuple = ('one', 2, 3, 'four', 5, 'six', 7)
+
+print(tuple)
+print(tuple[0])
+print(tuple[3])
+print(tuple[6])
+
+#Tuple methods
+
+print(tuple.index('one'))
+print(tuple.count('one'))
